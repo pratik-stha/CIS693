@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-64] Unable to schedule the loop exit test ('call' operation ('tmp_1', C:/Users/16167/Downloads/axi4_burst/axi4_sqrt.cpp:33) to 'CheckPartition') in the first pipeline iteration (II = 14 cycles)." projectName="AxiBurst" solutionName="solution1" date="2020-11-03T20:23:30.470-0500" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-64] Unable to schedule the loop exit test ('call' operation ('tmp_1', C:/Users/16167/Downloads/axi4_burst/axi4_sqrt.cpp:33) to 'CheckPartition') in the first pipeline iteration (II = 13 cycles)." projectName="AxiBurst" solutionName="solution1" date="2020-11-03T20:23:30.463-0500" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('array_load_2', C:/Users/16167/Downloads/axi4_burst/axi4_sqrt.cpp:60) on array 'array_r' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'array_r'." projectName="AxiBurst" solutionName="solution1" date="2020-11-03T20:23:29.872-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'AxiBurst/array' to 'AxiBurst/array_r' to avoid the conflict with HDL keywords or other object names." projectName="AxiBurst" solutionName="solution1" date="2020-11-03T20:23:29.652-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'AxiBurst/output' to 'AxiBurst/output_r' to avoid the conflict with HDL keywords or other object names." projectName="AxiBurst" solutionName="solution1" date="2020-11-03T20:23:29.642-0500" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-1' (C:/Users/16167/Downloads/axi4_burst/axi4_sqrt.cpp:54) because its parent loop or function is pipelined." projectName="AxiBurst" solutionName="solution1" date="2020-11-03T20:23:29.143-0500" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
