@@ -4,9 +4,9 @@
 * PYNQ-Z1 board by Xilinx
 * Vivado HLS
 * Vivado design suite
-* Jupyter NOtebook
+* Jupyter Notebook
 
 ## Instruction
-* The program consists of array size of 25 which means it cam determine if the inputs can be partitioned or not in the array of 25 numbers.
+* The program consists of array size of 25 which means it can determine if the inputs can be partitioned or not in the array of 25 numbers.
 
 
