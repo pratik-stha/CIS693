@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-65] Unable to satisfy pipeline directive: Loop contains subloop(s) not being unrolled or flattened." projectName="PartitionCheckII" solutionName="solution1" date="2020-11-23T01:20:31.632-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'PartitionCheckII/array' to 'PartitionCheckII/array_r' to avoid the conflict with HDL keywords or other object names." projectName="PartitionCheckII" solutionName="solution1" date="2020-11-23T01:20:31.406-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'PartitionCheckII/output' to 'PartitionCheckII/output_r' to avoid the conflict with HDL keywords or other object names." projectName="PartitionCheckII" solutionName="solution1" date="2020-11-23T01:20:31.390-0500" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-3' (C:/Users/16167/Downloads/axi4_burst/axi4_sqrt.cpp:32:24) in function 'PartitionCheckII' : &#xD;&#xA;&#xD;&#xA;the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop." projectName="PartitionCheckII" solutionName="solution1" date="2020-11-23T01:20:31.205-0500" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-1' (C:/Users/16167/Downloads/axi4_burst/axi4_sqrt.cpp:57) in function 'CheckPartition': cannot completely unroll a loop with a variable trip count." projectName="PartitionCheckII" solutionName="solution1" date="2020-11-23T01:20:30.955-0500" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

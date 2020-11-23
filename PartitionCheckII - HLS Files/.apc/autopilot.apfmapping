@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="axi4_sqrt.hpp" path="C:\Users\16167\Downloads\axi4_burst\axi4_sqrt.hpp"/>
+    <originFiles name="axi4_sqrt.cpp" path="C:\Users\16167\Downloads\axi4_burst\axi4_sqrt.cpp"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>
